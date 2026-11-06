@@ -17,7 +17,7 @@ In this repository, open Settings → Pages. Under Build and deployment, select 
 
 ## Practice and feedback
 
-Daily practice includes a warmup, review, a new skill, and a challenge with the guide hidden. A daily lesson earns 50 XP once per local calendar day, with streaks, freezes, badges, and targeted review. Tracing feedback measures shape coverage and closeness to the guide; it does not assess readability, stroke order, or stroke direction. A parent can review independent samples. Animated stroke guides cover lowercase letters; capitals are not animated yet.
+Daily practice includes a warmup, review, a new skill, and a challenge with the guide hidden. A daily lesson earns 50 XP once per local calendar day, with streaks, freezes, badges, and targeted review. Tracing feedback measures shape coverage and closeness to the guide; it does not assess readability, stroke order, or stroke direction. A parent can review independent samples. Signature practice is available immediately from Daily journey or My signature, with saved daily completion, a separate signature streak, and a remembered name for each learner. Animated stroke guides cover lowercase letters; capitals are not animated yet.
 
 ## Fonts
 

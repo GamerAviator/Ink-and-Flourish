@@ -1,5 +1,5 @@
 const PREFIX='ink-flourish:'+new URL(self.registration.scope).pathname+':';
-const CACHE=PREFIX+'2026-11-06-v1';
+const CACHE=PREFIX+'2026-11-06-v2';
 const CORE=['./','index.html','app.js','daily.js','journey-core.js','stroke-guides.js','install.js','manifest.json','icon.svg','icon-192.png','icon-512.png','apple-touch-icon.png','assets/cursive.ttf'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith(PREFIX)&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
